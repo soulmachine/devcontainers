@@ -1,0 +1,31 @@
+{
+    "name": "Ethereum DevContainer",
+    "build": {
+        "dockerfile": "Dockerfile",
+    },
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "GitHub.vscode-pull-request-github",
+        "GitHub.copilot",
+        "JuanBlanco.solidity",
+        "tintinweb.solidity-visual-auditor",
+        "tintinweb.vscode-solidity-language",
+        "tintinweb.graphviz-interactive-preview",
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "editor.inlineSuggest.enabled": true,
+        "files.autoSave": "onFocusChange",
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "solidity.formatter": "prettier",
+        "[solidity]": {
+            "editor.defaultFormatter": "JuanBlanco.solidity"
+        },
+        "solidity.linter": "solhint",
+        "workbench.colorTheme": "Visual Studio Dark",
+        "workbench.editor.highlightModifiedTabs": true,
+    },
+    "remoteUser": "node"
+}

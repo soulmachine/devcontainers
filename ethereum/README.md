@@ -1,0 +1,1 @@
+A dev container for developing Ethereum/BSC smart contracts.
