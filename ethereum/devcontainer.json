@@ -6,12 +6,14 @@
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
     "workspaceFolder": "/workspace",
     "extensions": [
-        "GitHub.vscode-pull-request-github",
-        "GitHub.copilot",
-        "JuanBlanco.solidity",
+        "esbenp.prettier-vscode",
+        "gitHub.copilot",
+        "gitHub.vscode-pull-request-github",
+        "juanBlanco.solidity",
+        "tintinweb.graphviz-interactive-preview",
         "tintinweb.solidity-visual-auditor",
         "tintinweb.vscode-solidity-language",
-        "tintinweb.graphviz-interactive-preview",
+        "yzhang.markdown-all-in-one",
     ],
     "settings": {
         "editor.formatOnSave": true,
@@ -19,11 +21,19 @@
         "files.autoSave": "onFocusChange",
         "files.insertFinalNewline": true,
         "files.trimFinalNewlines": true,
-        "solidity.formatter": "prettier",
-        "[solidity]": {
-            "editor.defaultFormatter": "JuanBlanco.solidity"
-        },
         "solidity.linter": "solhint",
+        "[markdown]": {
+            "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+        },
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[solidity]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[typescript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
         "workbench.colorTheme": "Solidity Visual Developer Dark",
         "workbench.editor.highlightModifiedTabs": true,
     },
