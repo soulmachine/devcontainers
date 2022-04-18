@@ -1,5 +1,5 @@
 {
-    "name": "Ethereum DevContainer",
+    "name": "Ethereum",
     "build": {
         "dockerfile": "Dockerfile",
     },
@@ -24,7 +24,7 @@
             "editor.defaultFormatter": "JuanBlanco.solidity"
         },
         "solidity.linter": "solhint",
-        "workbench.colorTheme": "Visual Studio Dark",
+        "workbench.colorTheme": "Solidity Visual Developer Dark",
         "workbench.editor.highlightModifiedTabs": true,
     },
     "remoteUser": "node"
