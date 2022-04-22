@@ -22,8 +22,6 @@
         "files.autoSave": "onFocusChange",
         "files.insertFinalNewline": true,
         "files.trimFinalNewlines": true,
-        "go.toolsManagement.checkForUpdates": "local",
-        "go.useLanguageServer": true,
         "go.formatTool": "gofumpt",
         "gopls": {
             "formatting.gofumpt": true
