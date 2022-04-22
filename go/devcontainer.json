@@ -34,7 +34,7 @@
         "[markdown]": {
             "editor.defaultFormatter": "yzhang.markdown-all-in-one"
         },
-        "workbench.colorTheme": "Solidity Visual Developer Dark",
+        "workbench.colorTheme": "Visual Studio Dark",
         "workbench.editor.highlightModifiedTabs": true,
     },
     "remoteUser": "vscode"
