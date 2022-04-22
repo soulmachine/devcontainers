@@ -22,4 +22,5 @@ RUN sudo apt -qy update && sudo apt -qy --no-install-recommends install \
  && go install github.com/uudashr/gopkgs/v2/cmd/gopkgs@latest \
  && go install golang.org/x/lint/golint@latest \
  && go install golang.org/x/tools/cmd/goimports@latest \
+ && go install mvdan.cc/gofumpt@latest \
  && sudo apt -qy autoremove && sudo apt clean && sudo rm -rf /var/lib/apt/lists/* && sudo rm -rf /tmp/*
