@@ -1,0 +1,1 @@
+A dev container for the Go language.
